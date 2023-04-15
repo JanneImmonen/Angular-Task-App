@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title><span translate>About</span></ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card class="ion-text-center">
+    <ion-card-content>
+      <ion-card-title translate>APP_NAME</ion-card-title>
+      <p><ion-icon name="code"></ion-icon> <span translate>Version</span> {{ version }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Features section -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Features</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li>Responsive design for multiple devices</li>
+        <li>Offline support and data synchronization</li>
+        <li>User-friendly interface</li>
+        <li>Secure authentication and authorization</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Technology stack section -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Technology Stack</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ul>
+        <li>Angular</li>
+        <li>Ionic</li>
+        <li>TypeScript</li>
+        <li>NGX-Rocket</li>
+        <li>RxJS</li>
+        <li>NgRx</li>
+      </ul>
+    </ion-card-content>
+  </ion-card>
+
+  <!-- Contact information section -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Contact Information</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>Phone: +1 (555) 123-4567</p>
+      <p>Address: 1234 Example Street, Helsinki, Finland</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
